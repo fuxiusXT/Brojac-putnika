@@ -1,0 +1,363 @@
+*,
+* ::before,
+* ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: sans-serif;
+    font-family: tangerine;
+    background: url(images/trainstation-1683060800600-3859.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    animation: change 25s infinite ease-in-out;
+
+
+}
+#wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;  
+}
+#leva-strana {
+    margin-left:300px;
+    margin-top:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#desna-strana {
+    margin-right: 300px;
+    margin-top:50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#naslov{
+    font-family: tangerine;
+    font-size: 120px;
+    text-shadow: 4px 4px 4px gray;
+    transition: all 0.6s ease-in-out;
+    color: white;
+}
+#naslov:hover {
+    color: #852D91;
+    text-shadow: 4px 4px 4px black;
+    cursor: pointer;
+}
+
+#naslov-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#naslov-hover:focus {
+    outline: none;
+}  
+
+#save-el{
+    font-family: tangerine;
+    font-size: 120px;
+    text-shadow: 4px 4px 4px gray;
+    transition: all 0.6s ease-in-out;
+    color: white;
+
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#save-el:hover {
+    color: #e85a19;
+    text-shadow: 4px 4px 4px black;
+    cursor: pointer;
+}
+
+#save-el-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#save-el-hover:focus {
+    outline: none;
+}
+#count-el{
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 4px gray;
+    font-size: 50px;
+
+}
+#count-el:hover {
+    color: #852D91;
+    text-shadow: 4px 4px 4px black;
+    cursor: pointer;
+}
+
+#count-el-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#count-el-hover:focus {
+    outline: none;
+} 
+#snimanje {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: white;
+    text-shadow: 4px 4px 4px gray;
+    font-size: 50px;
+}
+#snimanje:hover {
+    color: #e85a19;
+    text-shadow: 4px 4px 4px black;
+    cursor: pointer;
+}
+
+#snimanje-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#snimanje-hover:focus {
+    outline: none;
+} 
+
+#increment-btn {
+    display: block;
+    width: 250px;
+    height: 100px;
+    transition: all 0.6s ease-in-out;
+    border-radius: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 4px 4px 4px gray;
+    box-shadow: 5px 5px 5px gray;
+
+}
+#save-btn {
+    display: block;
+    width: 250px;
+    height: 100px;
+    transition: all 0.6s ease-in-out;
+    border-radius: 40px;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 4px 4px 4px gray;
+    box-shadow: 5px 5px 5px gray;
+
+}
+#increment-btn:hover {
+    width: 250px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    height: 100px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
+}
+#save-btn:hover {
+    width: 250px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    height: 100px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#increment-btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+#save-btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#increment-btn-hover:focus {
+    outline: none;
+}  
+
+#save-btn-hover:focus {
+    outline: none;
+}  
+
+
+#increment-btn:hover{
+    background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+    box-shadow: 0 4px 15px 0  rgba(126, 52, 161, 0.75);
+}
+
+
+#save-btn:hover{
+    background-image: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+}
+
+@keyframes change {
+    0% {
+        background-image: url(images/111.jpeg);
+    }
+
+    20% {
+        background-image: url(images/444.jpeg);
+    }
+
+    40% {
+        background-image: url(images/555.jpeg);
+    }
+
+    60% {
+        background-image: url(images/666.jpeg);
+    }
+
+    80% {
+        background-image: url(images/trainstation-1683060800600-3859.jpg);
+    }
+
+    100% {
+        background-image: url(images/555.jpeg);
+    }
+
+}
+
+@media screen and   (max-width: 800px){
+
+    #wrapper {
+        display:flex;
+        flex-direction: column;
+        -webkit-flex-direction: column;
+         justify-content: center;      
+    }
+    #leva-strana{
+       
+        margin-left: 40px;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+    #desna-strana {
+       
+        margin-right:40px;
+        margin-right:0;
+        margin-top:150px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+
+    }
+    #naslov {
+        font-size: 60px;
+        text-shadow: 2px 2px 2px gray;
+        }
+
+    #count-el{
+        text-shadow: 2px 2px 2px gray;
+        font-size: 25px;
+           
+        }
+    #increment-btn{
+        width: 125px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 17px;
+        text-shadow: 2px 2px 2px gray;
+        box-shadow: 3px 3px 3px gray;
+        }
+    #save-el {
+        font-size: 60px;
+        text-shadow: 2px 2px 2px gray;
+        } 
+    #snimanje{
+        text-shadow: 2px 2px 2px gray;
+        font-size: 25px;
+        } 
+    #save-btn{
+        width: 125px;
+        height: 50px;
+        border-radius: 20px;
+        font-size: 17px;
+        text-shadow: 2px 2px 2px gray;
+        box-shadow: 3px 3px 3px gray;
+        }   
+    #increment-btn:hover{
+        width: 125px;
+        font-size: 17px;
+        height: 50px;
+        background-size: 300% 100%;
+           
+        border-radius: 25px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out; 
+           
+           }
+           
+    #save-btn:hover {
+        width: 125px;
+        font-size: 17px;
+        height: 50px;
+        background-size: 300% 100%;
+           
+        border-radius: 25px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out; 
+           }
+           
+            
+}    
+       
+    
